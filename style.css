@@ -1,16 +1,43 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  color: maroon;
+  text-shadow: 2px 2px black;
+}
+
+.border {
+  outline: 5px groove maroon;
+  width: 25%;
+  margin: auto;
+}
+
+h1,
+p {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+hr,
+footer {
+  position: static;
+  margin-top: 500px;
+}
+
 hr {
   border-color: rgb(255, 0, 0, 0.2);
   border-style: ridge;
-  width: 25%;
+  width: 100%;
   height: auto;
-  margin: auto;
 }
 
 footer {
   width: 25%;
   margin: auto;
   text-align: center;
-  color: rgb(255, 57, 127, 0.5);
+  color: black;
 }
 
 /* Start https://www.cursors-4u.com */
