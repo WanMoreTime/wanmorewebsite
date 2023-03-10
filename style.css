@@ -1,0 +1,135 @@
+title {
+  color: red;
+}
+
+body {
+  background-color: rgb(255, 127, 127, 0.3);
+}
+
+.main {
+  text-align: center;
+  font-size: 60px;
+}
+h1,
+h2 {
+  font-family: fantasy;
+  font-weight: 1;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: maroon;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+.nihon {
+  @font-face {
+    font-family: "yozakuraregular";
+    src: url("yozakura-regular-webfont.woff2") format("woff2"),
+      url("yozakura-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  font-size: 50px;
+  border-color: rgba(245, 243, 243, 0.371);
+  border-style: groove;
+  border-width: 10px;
+  height: 50%;
+  width: 40%;
+  margin: auto;
+}
+
+.sakuya {
+  height: 20%;
+  width: 15%;
+  margin: auto;
+}
+
+.sakuyamumble {
+  height: auto;
+  width: auto;
+  margin: auto;
+}
+
+.checkitout {
+  width: 75%;
+  height: 75%;
+  margin-left: 20px;
+  margin-top: auto;
+  font-weight: 510;
+}
+
+.sakuyamumble a:link {
+  color: yellow;
+  text-decoration: none;
+}
+
+.sakuyamumble a:hover {
+  color: grey;
+}
+
+.sakuyamumble a:visited {
+  color: rgba(126, 255, 76, 1);
+}
+
+.sakuyamumble a:active {
+  color: red;
+}
+
+.vsc {
+  margin: auto;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.vsc h2 {
+  margin: -5px;
+  color: maroon;
+  text-transform: uppercase;
+}
+
+.vsc h3 {
+  color: blue;
+  margin-top: -3px;
+  margin-bottom: 20px;
+}
+
+.vsc img {
+  max-width: 75%;
+  height: auto;
+  background-size: cover;
+}
+
+.warau {
+  color: black;
+  border-style: dashed;
+  border-color: rgb(255, 237, 216);
+}
+
+hr {
+  border-color: rgb(255, 0, 0, 0.2);
+  border-style: ridge;
+  width: 25%;
+  height: auto;
+  margin: auto;
+}
+
+footer {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  color: rgb(255, 57, 127, 0.5);
+}
+
+/* Start https://www.cursors-4u.com */
+* {
+  cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1053.cur), auto !important;
+} /* End https://www.cursors-4u.com */
