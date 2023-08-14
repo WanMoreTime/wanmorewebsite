@@ -1,5 +1,6 @@
 body {
   background-color: aliceblue;
+
 }
 
 h1 {
@@ -22,8 +23,10 @@ p {
 
 hr,
 footer {
-  position: static;
+  position: sticky;
   margin-top: 500px;
+  /*fix the margin top lmao*/
+  /*Preferably make it so that it's sticky, and not depending on px (ACtually all of them need to remove px dependency dammit*/
 }
 
 hr {
@@ -40,7 +43,39 @@ footer {
   color: black;
 }
 
+.spoiler {
+  width: auto;
+  height: auto;
+  text-align: center;
+
+}
+
+.open {
+  font-size: 25px;
+  color: red;
+}
+
+.wonder {
+  color: aqua;
+}
+
+.Shabalamamingaling {
+  margin: 15px;
+  font-size: 15px;
+  color: blue;
+}
+
+.quote {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  outline: 1px groove red;
+  width: auto;
+  height: auto;
+}
+
 /* Start https://www.cursors-4u.com */
 * {
   cursor: url(https://cur.cursors-4u.net/anime/ani-11/ani1053.cur), auto !important;
-} /* End https://www.cursors-4u.com */
+}
+
+/* End https://www.cursors-4u.com */
